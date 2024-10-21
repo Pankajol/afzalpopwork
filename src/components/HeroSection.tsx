@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
         {/* Testimonial Section */}
         <div className="bg-white text-blue-700 rounded-lg p-6 mb-8 max-w-lg mx-auto shadow-lg animate__animated animate__fadeIn animate__delay-2s">
           <blockquote className="italic text-center text-lg mb-4">
-            "The plaster of Paris ceiling designs completely transformed our home! The quality and attention to detail were outstanding!"
+            &quot;The plaster of Paris ceiling designs completely transformed our home! The quality and attention to detail were outstanding!&quot;
           </blockquote>
           <p className="text-center text-sm font-semibold">- Satisfied Customer</p>
         </div>

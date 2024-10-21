@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -18,7 +18,7 @@ const ServicePage: React.FC = () => {
         </div>
         <div className="container mx-auto px-6 relative z-10 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-            Premium POP (Plaster of Paris) Services for Your Home & Office
+            Premium POP (Plaster of Paris) Services for Your Home &amp; Office
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto">
             Transform your space with expert ceiling, wall, and decorative designs tailored to your needs.
@@ -119,13 +119,13 @@ const ServicePage: React.FC = () => {
           <div className="flex justify-center gap-12">
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
               <blockquote className="italic text-lg mb-4">
-                "The ceiling design completely transformed our home! The attention to detail was incredible, and the team was very professional."
+                &quot;The ceiling design completely transformed our home! The attention to detail was incredible, and the team was very professional.&quot;
               </blockquote>
               <p className="font-semibold">- John Doe</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
               <blockquote className="italic text-lg mb-4">
-                "Excellent work! The wall treatments added such an elegant touch to our office. Highly recommend!"
+                &quot;Excellent work! The wall treatments added such an elegant touch to our office. Highly recommend!&quot;
               </blockquote>
               <p className="font-semibold">- Jane Smith</p>
             </div>
@@ -139,7 +139,7 @@ const ServicePage: React.FC = () => {
           Ready to Transform Your Space?
         </h2>
         <p className="text-lg mb-8">
-          Reach out to us for a consultation or to get a custom quote for your project. Let’s create something amazing!
+          Reach out to us for a consultation or to get a custom quote for your project. Let&rsquo;s create something amazing!
         </p>
         <Link href="/contact">
           <button className="bg-white text-blue-700 hover:bg-blue-700 hover:text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">

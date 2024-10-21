@@ -13,11 +13,11 @@ const AboutPage: React.FC = () => {
           <p className="mb-8">
             With over 20 years of experience, we have been at the forefront of transforming spaces with our
             exceptional Plaster of Paris (POP) designs. Our expertise in creating intricate ceiling and wall treatments
-            has helped us build a reputation as a trusted name in home and office decor. We take pride in delivering high-quality,
-            aesthetically pleasing, and durable designs that elevate the beauty of your living or working space.
+            has helped us build a reputation as a trusted name in home and office decor. We take pride in delivering
+            high-quality, aesthetically pleasing, and durable designs that elevate the beauty of your living or working space.
           </p>
           <p>
-            We believe in personalized solutions tailored to your unique needs. Whether it's a grand ceiling design, custom wall
+            We believe in personalized solutions tailored to your unique needs. Whether it&apos;s a grand ceiling design, custom wall
             treatments, or decorative features, we provide expert consultations, professional execution, and impeccable results.
           </p>
         </div>
@@ -36,7 +36,7 @@ const AboutPage: React.FC = () => {
             <FaUsers size={50} className="text-blue-700 mb-6" />
             <h3 className="text-2xl font-semibold text-blue-700 mb-4">Trusted by Thousands</h3>
             <p className="text-lg">
-              Our clients trust us for our reliability and commitment to excellence. We've successfully completed hundreds of projects across India.
+              Our clients trust us for our reliability and commitment to excellence. We&apos;ve successfully completed hundreds of projects across India.
             </p>
           </div>
 
@@ -53,13 +53,13 @@ const AboutPage: React.FC = () => {
         <div className="mt-16">
           <h3 className="text-2xl font-semibold text-blue-700 mb-6">Our Mission</h3>
           <p className="text-lg">
-            Our mission is to transform your space into a masterpiece with our POP designs. We aim to provide creative, custom solutions that reflect your style, personality, and needs. Whether it's residential or commercial, our designs create an environment that inspires and enhances productivity.
+            Our mission is to transform your space into a masterpiece with our POP designs. We aim to provide creative, custom solutions that reflect your style, personality, and needs. Whether it&apos;s residential or commercial, our designs create an environment that inspires and enhances productivity.
           </p>
         </div>
 
         {/* Call to Action */}
         <div className="mt-12">
-          <h3 className="text-2xl font-semibold text-blue-700 mb-6">Let’s Create Something Beautiful Together</h3>
+          <h3 className="text-2xl font-semibold text-blue-700 mb-6">Let&apos;s Create Something Beautiful Together</h3>
           <p className="text-lg mb-8">
             Get in touch with us today to discuss your design requirements, and let us help you create a space that reflects your vision.
           </p>

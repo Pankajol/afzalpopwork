@@ -20,8 +20,9 @@ const PricingPage: React.FC = () => {
             Affordable POP Services for Every Budget
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto">
-            Choose the right package for your home or office. Our transparent pricing ensures you know exactly what you’re paying for.
+            Choose the right package for your home or office. Our transparent pricing ensures you know exactly what you&apos;re paying for.
           </p>
+
           <Link href="#pricing-plans">
             <button className="bg-white text-blue-700 hover:bg-blue-700 hover:text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
               View Pricing Plans
@@ -128,13 +129,13 @@ const PricingPage: React.FC = () => {
           <div className="flex justify-center gap-12">
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
               <blockquote className="italic text-lg mb-4">
-                "The ceiling designs completely transformed our home! Professional service and high-quality work."
+                &quot;The ceiling designs completely transformed our home! Professional service and high-quality work.&quot;
               </blockquote>
               <p className="font-semibold">- Rajesh Kumar</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
               <blockquote className="italic text-lg mb-4">
-                "Amazing wall treatments and ceiling designs. My office looks more elegant and inspiring."
+                &quot;Amazing wall treatments and ceiling designs. My office looks more elegant and inspiring.&quot;
               </blockquote>
               <p className="font-semibold">- Priya Mehta</p>
             </div>
@@ -148,7 +149,7 @@ const PricingPage: React.FC = () => {
           Ready to Transform Your Space?
         </h2>
         <p className="text-lg mb-8">
-          Contact us now for a personalized quote and consultation. Let’s create something beautiful together!
+          Contact us now for a personalized quote and consultation. Let&apos;s create something beautiful together!
         </p>
         <Link href="/contact">
           <button className="bg-white text-blue-700 hover:bg-blue-700 hover:text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
