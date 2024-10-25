@@ -40,12 +40,12 @@ const ContactPage: React.FC = () => {
 
               <div className="mb-8">
                 <h4 className="text-xl font-medium text-blue-700">Address</h4>
-                <p className="text-lg">Lousiwadi, Thane west , Maharashtra, India - 400604</p>
+                <p className="text-lg text-black">Lousiwadi, Thane west , Maharashtra, India - 400604</p>
               </div>
 
               <div className="mb-8">
                 <h4 className="text-xl font-medium text-blue-700">Phone Number</h4>
-                <p className="text-lg">
+                <p className="text-lg text-black">
                   <a href="tel:+917738961799" className=" hover:underline">
                     +91 9029241977
                   </a>
@@ -54,7 +54,7 @@ const ContactPage: React.FC = () => {
 
               <div className="mb-8">
                 <h4 className="text-xl font-medium text-blue-700">Email</h4>
-                <p className="text-lg">
+                <p className="text-lg text-black">
                   <a href="mailto:pankajdyadav10699@gmail.com" className=" hover:underline">
                     afzalkhan23718@gmail.com
                   </a>

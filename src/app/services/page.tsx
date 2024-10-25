@@ -46,8 +46,8 @@ const ServicePage: React.FC = () => {
                 height={300}
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-xl font-semibold mb-4">Ceiling Design</h3>
-              <p>
+              <h3 className="text-xl text-black font-semibold mb-4">Ceiling Design</h3>
+              <p className='text-black'>
                 Add elegance and sophistication to your home with our custom-designed plaster ceilings.
               </p>
             </div>
@@ -59,8 +59,8 @@ const ServicePage: React.FC = () => {
                 height={300}
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-xl font-semibold mb-4">Wall Treatments</h3>
-              <p>
+              <h3 className="text-xl text-black font-semibold mb-4">Wall Treatments</h3>
+              <p className='text-black'>
                 Give your walls a touch of class with our expert wall treatments and POP designs.
               </p>
             </div>
@@ -72,8 +72,8 @@ const ServicePage: React.FC = () => {
                 height={300}
                 className="w-full h-48 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-xl font-semibold mb-4">Design Consultation</h3>
-              <p>
+              <h3 className="text-xl text-black font-semibold mb-4">Design Consultation</h3>
+              <p className='text-black'>
                 Our experts will help you choose the best designs for your space, ensuring a perfect fit.
               </p>
             </div>
@@ -89,20 +89,20 @@ const ServicePage: React.FC = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">Expert Craftsmanship</h3>
-              <p>
+              <h3 className="text-xl text-black font-semibold mb-4">Expert Craftsmanship</h3>
+              <p className='text-black'>
                 Our team of skilled professionals provides high-quality plasterwork, ensuring durability and elegance.
               </p>
             </div>
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">Custom Designs</h3>
-              <p>
+              <h3 className="text-xl text-black font-semibold mb-4">Custom Designs</h3>
+              <p className='text-black'>
                 We offer personalized designs that reflect your taste, creating unique spaces.
               </p>
             </div>
             <div className="bg-gray-100 p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">Affordable Pricing</h3>
-              <p>
+              <h3 className="text-xl text-black font-semibold mb-4">Affordable Pricing</h3>
+              <p className='text-black'>
                 Our services are not only premium but also cost-effective, ensuring value for money.
               </p>
             </div>
@@ -117,13 +117,13 @@ const ServicePage: React.FC = () => {
             What Our Clients Say
           </h2>
           <div className="flex justify-center gap-12">
-            <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
+            <div className="bg-blue-400 p-8 rounded-lg shadow-lg max-w-md">
               <blockquote className="italic text-lg mb-4">
                 &quot;The ceiling design completely transformed our home! The attention to detail was incredible, and the team was very professional.&quot;
               </blockquote>
               <p className="font-semibold">- John Doe</p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg max-w-md">
+            <div className="bg-blue-400 p-8 rounded-lg shadow-lg max-w-md">
               <blockquote className="italic text-lg mb-4">
                 &quot;Excellent work! The wall treatments added such an elegant touch to our office. Highly recommend!&quot;
               </blockquote>

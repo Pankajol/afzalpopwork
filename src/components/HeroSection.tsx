@@ -21,7 +21,7 @@ const HeroSection: React.FC = () => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 animate__animated animate__fadeIn animate__delay-1s">
           Transform Your Space with Stunning POP Designs
         </h1>
-        
+
         {/* Subheading */}
         <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-2xl mx-auto animate__animated animate__fadeIn animate__delay-1s">
           Discover exquisite ceiling and wall treatments that bring style and sophistication to your home or office.
@@ -36,18 +36,21 @@ const HeroSection: React.FC = () => {
         </div>
 
         {/* Call-to-Action Buttons with Hover Effects */}
-        <div className="flex justify-center gap-6 mt-8 animate__animated animate__fadeIn animate__delay-2s">
-          <Link href="/services">
-            <span className="bg-white text-blue-700 hover:bg-blue-700 hover:text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105">
-              Explore Our Services
-            </span>
-          </Link>
-          <Link href="/contact">
-            <span className="bg-transparent text-white hover:text-blue-700 hover:bg-white px-8 py-4 text-lg font-semibold border-2 border-white rounded-lg transition-all duration-300 transform hover:scale-105">
-              Get a Quote
-            </span>
-          </Link>
-        </div>
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 mt-8 animate__animated animate__fadeIn animate__delay-2s">
+  <Link href="/services">
+    <span className="w-full sm:w-auto bg-white text-blue-700 hover:bg-blue-700 hover:text-white px-6 py-3 sm:px-8 sm:py-4 text-base sm:text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 text-center">
+      Explore Our Services
+    </span>
+  </Link>
+  <Link href="/contact">
+    <span className="w-full sm:w-auto bg-transparent text-white hover:text-blue-700 hover:bg-white px-6 py-3 sm:px-8 sm:py-4 text-base sm:text-lg font-semibold border-2 border-white rounded-lg transition-all duration-300 transform hover:scale-105 text-center">
+      Get a Quote
+    </span>
+  </Link>
+</div>
+
+
+
 
         {/* Contact Section (Optional) */}
         <div className="mt-12 text-center text-white animate__animated animate__fadeIn animate__delay-3s">
