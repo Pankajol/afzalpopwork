@@ -63,7 +63,7 @@ const ContactPage: React.FC = () => {
 
               {/* Social Media Icons */}
               <div className="flex space-x-6">
-                <a href="https://wa.me/917738961799" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919029241977" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp size={30} className="text-green-500 hover:text-green-600 transition-all duration-300" />
                 </a>
                 <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
@@ -158,7 +158,7 @@ const ContactPage: React.FC = () => {
         <div className="flex justify-center items-center gap-6">
           {/* WhatsApp Button */}
           <Link
-            href="https://wa.me/917738961799"
+            href="https://wa.me/919029241977"
             target="_blank"
             className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
           >
@@ -173,9 +173,7 @@ const ContactPage: React.FC = () => {
           <Link href="https://instagram.com" target="_blank" className="text-pink-500 hover:text-pink-600">
             <FaInstagram size={30} />
           </Link>
-          <Link href="https://twitter.com" target="_blank" className="text-blue-400 hover:text-blue-500">
-            <FaTwitter size={30} />
-          </Link>
+          
         </div>
       </section>
     </div>

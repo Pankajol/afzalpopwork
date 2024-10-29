@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +32,25 @@ export default function RootLayout({
       >
         <Navbar/>
         {children}
+        <Link href="https://wa.me/9029241977" passHref>
+            <p
+              // target="_blank"
+              className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
+              aria-label="Chat on WhatsApp"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+                className="w-6 h-6"
+                fill="currentColor"
+              >
+                <path d="M16 0C7.168 0 0 7.168 0 16c0 2.82.738 5.524 2.146 7.91L.091 32l8.316-2.095A15.947 15.947 0 0 0 16 32c8.832 0 16-7.168 16-16S24.832 0 16 0zm7.267 23.355c-.33.93-1.665 1.718-2.354 1.833-.598.09-1.338.13-2.152-.21-.493-.208-1.127-.39-1.919-.678-3.36-1.16-5.547-3.97-5.714-4.157-.165-.186-1.368-1.584-1.368-3.035s.868-2.15 1.176-2.449c.285-.283.75-.367.998-.367.238 0 .483.002.692.012.223.01.52-.084.81.623.33.794 1.055 2.75 1.14 2.948.09.186.15.405.03.65-.118.244-.18.39-.362.62-.178.224-.376.5-.542.668-.18.184-.37.384-.16.735.204.34.91 1.497 2.09 2.424 1.424 1.112 2.614 1.436 2.944 1.595.33.16.528.135.726-.082.19-.206.85-.99 1.078-1.337.226-.34.452-.285.755-.17.306.115 1.956.92 2.28 1.086.33.167.55.25.63.39.086.134.086.785-.244 1.715z"/>
+              </svg>
+            </p>
+          </Link>
+        
       </body>
     </html>
   );
 }
+
