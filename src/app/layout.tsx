@@ -48,12 +48,11 @@
 //               </svg>
 //             </p>
 //           </Link>
-        
+
 //       </body>
 //     </html>
 //   );
 // }
-
 
 
 
@@ -62,7 +61,6 @@ import localFont from "next/font/local";
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import Link from "next/link";
-
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -113,7 +111,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <meta name="google-site-verification" content="6hSqOwc5Lrrn0MigAOTRM6a-GkEznl3nGWcXWCb6Sow" />
+        <meta name="google-site-verification" content="6hSqOwc5Lrrn0MigAOTRM6a-GkEznl3nGWcXWCb6Sow" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z52WF49ZNY"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Z52WF49ZNY');
+            `,
+          }}
+        />
         {/* Structured Data for SEO */}
         <script
           type="application/ld+json"
