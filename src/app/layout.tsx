@@ -111,7 +111,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Analytics />
+     
       <head>
         <meta name="google-site-verification" content="6hSqOwc5Lrrn0MigAOTRM6a-GkEznl3nGWcXWCb6Sow" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z52WF49ZNY"></script>
@@ -151,6 +151,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Analytics />
         <Navbar />
         {children}
         <Link href="https://wa.me/9029241977" passHref>
